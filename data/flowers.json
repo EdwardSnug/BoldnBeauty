@@ -1,0 +1,204 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "image": "images/flower-1.jpg",
+      "description": "Classic red rose bouquet for romantic occasions."
+    },
+    {
+      "id": 2,
+      "image": "images/flower-2.jpg",
+      "description": "Elegant white lilies symbolizing purity."
+    },
+    {
+      "id": 3,
+      "image": "images/flower-3.jpg",
+      "description": "Bright tulips in assorted colors."
+    },
+    {
+      "id": 4,
+      "image": "images/flower-4.jpg",
+      "description": "Soft pink peonies for a gentle gesture."
+    },
+    {
+      "id": 5,
+      "image": "images/flower-5.jpg",
+      "description": "Sunny sunflowers to brighten any day."
+    },
+    {
+      "id": 6,
+      "image": "images/flower-6.jpg",
+      "description": "Exotic orchids arranged for elegance."
+    },
+    {
+      "id": 7,
+      "image": "images/flower-7.jpg",
+      "description": "Rustic mix of natural wildflowers."
+    },
+    {
+      "id": 8,
+      "image": "images/flower-8money.jpg",
+      "description": "Charming daisies for simple joys."
+    },
+    {
+      "id": 9,
+      "image": "images/flower-9mone.jpg",
+      "description": "Cool blue hydrangeas for calm moments."
+    },
+    {
+      "id": 10,
+      "image": "images/flower-12.jpg",
+      "description": "Spring mix of tulips, daffodils, and pansies."
+    },
+    {
+      "id": 11,
+      "image": "images/flower-13.jpg",
+      "description": "Romantic mix of roses and baby's breath."
+    },
+    {
+      "id": 12,
+      "image": "images/flower-14.jpg",
+      "description": "Delicate violets for sweet gestures."
+    },
+    {
+      "id": 13,
+      "image": "images/flower-15.jpg",
+      "description": "Calming lavender bouquet with soft scent."
+    },
+    {
+      "id": 14,
+      "image": "images/flower-16.jpg",
+      "description": "Warm autumn tones of orange and burgundy flowers."
+    },
+    {
+      "id": 15,
+      "image": "images/flower-17.jpg",
+      "description": "Festive birthday bouquet with mixed blooms."
+    },
+    {
+      "id": 16,
+      "image": "images/flower-18.jpg",
+      "description": "Celebrate achievements with bright florals."
+    },
+    {
+      "id": 17,
+      "image": "images/flower-20.jpg",
+      "description": "Sympathy bouquet with calming whites."
+    },
+    {
+      "id": 18,
+      "image": "images/flower-21.jpg",
+      "description": "Summer mix of sunflowers and daisies."
+    },
+    {
+      "id": 19,
+      "image": "images/flower-23.jpg",
+      "description": "Long-stemmed roses for anniversaries."
+    },
+    {
+      "id": 20,
+      "image": "images/flower-24.jpg",
+      "description": "Carefree field flowers in a rustic wrap."
+    },
+    {
+      "id": 21,
+      "image": "images/flower-26.jpg",
+      "description": "Carnations in bold and pastel shades."
+    },
+    {
+      "id": 22,
+      "image": "images/flower-27.jpg",
+      "description": "Pink bouquet for welcoming a baby girl."
+    },
+    {
+      "id": 23,
+      "image": "images/flower-28.jpg",
+      "description": "Blue and white mix for a baby boy."
+    },
+    {
+      "id": 24,
+      "image": "images/flower-29.jpg",
+      "description": "Bright roses for a celebration."
+    },
+    {
+      "id": 25,
+      "image": "images/flower-30.jpg",
+      "description": "Soft pastel bouquet for peace and calm."
+    },
+    {
+      "id": 26,
+      "image": "images/flower-31.jpg",
+      "description": "Cheerful mix to brighten recovery."
+    },
+    {
+      "id": 27,
+      "image": "images/flower-32.jpg",
+      "description": "White and blue blossoms for remembrance."
+    },
+    {
+      "id": 28,
+      "image": "images/flower-33.jpg",
+      "description": "Fresh spring florals in bright tones."
+    },
+    {
+      "id": 29,
+      "image": "images/flower-34.jpg",
+      "description": "Cool whites and silvers for winter cheer."
+    },
+    {
+      "id": 30,
+      "image": "images/flower-35.jpg",
+      "description": "A bouquet to say thank you warmly."
+    },
+    {
+      "id": 31,
+      "image": "images/flower-36.jpg",
+      "description": "Festive bouquet in red and green."
+    },
+    {
+      "id": 32,
+      "image": "images/flower-37.jpg",
+      "description": "Bold blooms for a grand opening event."
+    },
+    {
+      "id": 33,
+      "image": "images/flower-38.jpg",
+      "description": "A mix of violets and lavender for a magical look."
+    },
+    {
+      "id": 34,
+      "image": "images/flower-39.jpg",
+      "description": "A charming mix to say 'I love you'."
+    },
+    {
+      "id": 35,
+      "image": "images/flower-40.jpg",
+      "description": "A sweet bouquet of roses and carnations."
+    },
+    {
+      "id": 36,
+      "image": "images/flower-41.jpg",
+      "description": "Multi-colored roses for bold expressions."
+    },
+    {
+      "id": 37,
+      "image": "images/flower-42.jpg",
+      "description": "Graceful pink lilies and roses."
+    },
+    {
+      "id": 38,
+      "image": "images/flower-43.jpg",
+      "description": "Tropical blooms with a bold, exotic vibe."
+    },
+    {
+      "id": 39,
+      "image": "images/flower-44.jpg",
+      "description": "Minimalist bouquet with greens and whites."
+    },
+    {
+      "id": 40,
+      "image": "images/flower-45.jpg",
+      "description": "An elegant mix of premium fresh flowers."
+    }
+  ]
+}
