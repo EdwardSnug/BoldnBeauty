@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.innerHTML = `
           <img src="${product.image}" class="card-img-top" alt="Flowermania">
           <div class="card-body">
+          <p class="card-text">Kes: ${product.price}</p>
             <p class="card-text">${product.description}</p>
             <button class="btn btn-outline-success add-to-cart-btn" data-id="${product.id}">Put into Cart</button>
           </div>
