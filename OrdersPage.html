@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrdersPage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/cart.css">
+
+</head>
+
+<body style="font-family: Georgia, 'Times New Roman', Times, serif";>
+    <div class="container mt-5" id="cartsection">
+        <h2 class="text-center mb-4">🛒 Your Cart Summary</h2>
+
+        <div class="card mx-auto"  style="max-width: 400px;">
+            <div class="card-body text-center" id="display">
+                <p class="card-text"><strong>Total Orders:</strong> <span id="order-count">0</span></p>
+                <p class="card-text"><strong>Grand Total:</strong> KES <span id="total-amount">0</span></p>
+                <button id="clear-cart" class="btn btn-danger mt-3">Clear Cart</button>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="./products.html" class="btn btn-outline-primary">← Back to Products</a>
+        </div>
+    </div>
+        <footer id="myfooter">Copyright&COPY;2025BOLDNBEAUTY</footer>
+    <!--Bootstrap Script file-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!--Our JS file with all handlers and Logic-->
+    <script src="./src/cart.js"></script>
+    
+</body>
+</html>

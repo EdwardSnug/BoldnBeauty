@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!--Using fonts awesome library to load our contact us icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/about.css">
+
+</head>
+
+<body style="font-family: Georgia, 'Times New Roman', Times, serif" ;>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BoldnBeauty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./products.html">Flowermania Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./OrdersPage.html">CartPage</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-8" id="first-col">
+                <div>
+                    <h3>About US</h3>
+                    <p id="aboutus">Welcome to BoldNbeauty your one stop shooping experience for flowers and all round
+                        gifts.
+                        Brighten someones day with our handpicked, beautifully arranged flowers.Sourced from the best
+                        growers for long-lasting freshness.Whether it is for a birthday, anniversary, wedding, or just
+                        because you will find the perfect bouquet here.
+                    </p>
+                    <h6><em>Premium Fresh Flowers for Every Occasion</em></h6>
+                </div>
+            </div>
+            <div class="col-sm-4" id="second-col">
+                <div>
+                    <h4>Why choose us</h4>
+                    <ol id="whyus">
+                        <li><strong>Farm-Fresh Blooms:</strong> Sourced from the best growers in Kenya for long-lasting
+                            freshness.
+                        </li>
+                        <li><strong>Same-Day Delivery:</strong> Order before 3pm for delivery today!</li>
+                        <li><strong>Customized Bouquets:</strong> Tailor-made arrangements for any occasion.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <div>
+                    <h2 class="contactUs">Contact Us</h2>
+                    <h5 style="color: black;">Get In Touch</h5>
+                </div>
+                <div class="form">
+                    <form id="myform">
+                        <label>Your Name</label>
+                        <input type="text" id="name" placeholder="Enter Your Name we love knowing who we're talking to!"
+                            required />
+                        <label>Phone Number</label>
+                        <input type="number" id="number">
+                        <label>Email</label>
+                        <input type="email" id="email" placeholder="Enter Your email so we can send a thoughtful Reply"
+                            required />
+                        <label>Comment or Message</label>
+                        <textarea name="comments" id="comments" maxlength="256" rows="4"
+                            placeholder="Comments"></textarea>
+                        <button id="submitbtn" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="contactinfo" style="color: #fff;">
+            <!--Using Font Awesome to display our icons-->
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Nairobi, Kenya</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Boldnbeauty@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+254 712 345 678</span>
+                </div>
+            </div>
+        </div>
+
+        <footer id="myfooter">Copyright&COPY;2025BOLDNBEAUTY</footer>
+    </div>
+    <!--Bootstrap Script file-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!--Our JS file with all handlers and Logic-->
+    <script src="./src/auth.js"></script>
+</body>
+
+</html>

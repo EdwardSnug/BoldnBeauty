@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: linear-gradient(
+      rgba(255, 192, 203, 0.5),
+      rgba(255, 105, 180, 0.5)
+    ),
+    url("../images/bgpic2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Signup {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #198754; /* Bootstrap green */
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#Signup:hover {
+  background-color: #157347;
+}
+
+#noSignup {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #198754; /* Bootstrap green */
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#noSignup:hover {
+  background-color: #157347;
+}
+
+#login {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #198754; /* Bootstrap green */
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#login:hover {
+  background-color: #157347;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+form {
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+#topbar {
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+}
+
+#topbar:hover {
+  transform: scale(1.02); /* slightly zoom in */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* add shadow */
+  filter: brightness(1.1); /* slightly brighten background image */
+}
+
+#message {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+#first-col {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+}
+#first-col:hover {
+  transform: scale(1.02); /* slightly zoom in */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* add shadow */
+  filter: brightness(1.1);
+}
+
+#second-col {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+}
+#second-col:hover {
+  transform: scale(1.02); /* slightly zoom in */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* add shadow */
+  filter: brightness(1.1);
+}
+.container {
+  border-radius: 8px;
+}
+#myfooter {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: linear-gradient(
+    to right,
+    #ffe4e1,
+    #ffb6c1
+  ); /* Soft pink gradient */
+  color: #4b2e2e; /* Warm chocolate tone for contrast */
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.1rem;
+  border-top: 2px solid #e1a1a1;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+}

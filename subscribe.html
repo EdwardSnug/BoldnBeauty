@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LandingPage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/auth.css">
+
+</head>
+
+<body style="font-family: Georgia, 'Times New Roman', Times, serif";>
+    <nav class="navbar bg-body-tertiary" id="topbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/bloomLogo.jpeg" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Welcome To BoldnBeauty
+            </a>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-8" id="first-col">
+                <div>
+                    <h3>About US</h3>
+                    <p id="aboutus">Welcome to BoldNbeauty your one stop shooping experience for flowers and all round
+                        gifts.
+                        Brighten someones day with our handpicked, beautifully arranged flowers.Sourced from the best
+                        growers for long-lasting freshness.Whether it is for a birthday, anniversary, wedding, or just
+                        because you will find the perfect bouquet here.
+                    </p>
+                    <h6><em>Premium Fresh Flowers for Every Occasion</em></h6>
+                </div>
+            </div>
+            <div class="col-sm-4" id="second-col">
+                <div>
+                    <h4>Why choose us</h4>
+                    <ol id="whyus">
+                        <li><strong>Farm-Fresh Blooms:</strong> Sourced from the best growers in Kenya for long-lasting
+                            freshness.
+                        </li>
+                        <li><strong>Same-Day Delivery:</strong> Order before 3pm for delivery today!</li>
+                        <li><strong>Customized Bouquets:</strong> Tailor-made arrangements for any occasion.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="signup-container">
+                    <button id="Signup" type="button">SignUp(clickme)</button>
+                    <form id="signup-form" style="display:none;">
+                        <input type="text" id="signup-username" placeholder="Username" required />
+                        <input type="password" id="signup-password" placeholder="Password" required />
+                        <button type="submit">Sign Up</button>
+                        <button type="reset" name="Cancel" id="cancel1">Cancel</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="login-container">
+                    <button id="login" type="button">Login</button>
+                    <form id="login-form" style="display:none;">
+                        <input type="text" id="login-username" placeholder="Username" required />
+                        <input type="password" id="login-password" placeholder="Password" required />
+                        <button type="submit">Login</button>
+                        <button type="reset" name="Cancel"id="cancel2">Cancel</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="no-subscribe">
+                        <button id="noSignup" type="button">Continue Without an Account</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--used to display if user is registered successfully or not-->
+    <div id="message"></div>
+    <footer id="myfooter">Copyright&COPY;2025BOLDNBEAUTY</footer>
+
+    <!--Bootstrap Script file-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!--Our JS file with all handlers and Logic-->
+    <script src="./src/auth.js"></script>
+</body>
+
+</html>

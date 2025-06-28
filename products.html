@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowermania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/products.css">
+</head>
+
+<body style="font-family: Georgia, 'Times New Roman', Times, serif";>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BoldnBeauty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./OrdersPage.html">CartPage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./AboutUs.html">AboutUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./OrdersPage.html" class="btn btn-outline-primary position-relative">
+                            🛒 Cart
+                            <span id="cart-count"
+                                class="badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Our Products</h1>
+        </header>
+        <main class="container">
+        <section id="product-list" class="product-container">
+            <!-- Products will be injected here by JavaScript -->
+            <!--Bootstrap Card styling classes-->
+            <div class="col" id="mycard">
+                <!-- <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="flowermania">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text.</p>
+                        <button class="btn btn-primary">Put into Cart</button>
+                    </div>
+                </div> -->
+            </div>
+
+        </section>
+        </main>
+
+    </div>
+
+    <footer id="myfooter">Copyright&COPY;2025BOLDNBEAUTY</footer>
+    <!--Bootstrap Script file-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+        </script>
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
