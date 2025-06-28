@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         //Syntax:localStorage.getItem(key)
         //uses logical OR to check if record exists 
         let users = JSON.parse(localStorage.getItem("users") || "[]");
+        //Find if username already exists
         const existingUser = users.find(user => user.username === username);
 
         if (existingUser) {
@@ -60,10 +61,12 @@ document.addEventListener("DOMContentLoaded", () => {
             users.push({ username, password });
             localStorage.setItem("users", JSON.stringify(users));
             alert("Signup successful! You can now log in.");
-            this.reset();
-            this.style.display = "none";
-        }
+            formSignup.reset();
+            formSignup.style.display = "none";
+            loginbtn.style.display = "block"
 
+        }
+        //THE COMMENTED CODE BELOW IS SAME AS OUR FIND FUNCTION ABOVE
         // if (users.some(user => user.username === username)) {
         //     alert("Username already exists.");
         // } else {
@@ -81,6 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const password = document.getElementById("login-password").value;
 
         let users = JSON.parse(localStorage.getItem("users") || "[]");
+        //Find our username and match it with its stored password value
 
         const match = users.find(user => user.username === username && user.password === password);
 
