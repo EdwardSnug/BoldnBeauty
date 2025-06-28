@@ -1,6 +1,5 @@
 //we start by injecting our data to our cards with their respective fields
-//Fields include: ImageUrl,description and an add to cart button
-const flowerPrice = 1000; //Bouquet price in Ksh 
+//Fields include: Image,price in KES,description and an add to cart button
 //Storing each Item click into an array of our choice with its attributes
 //Using LocalStorage to keep a record as long as the session is active
 let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
@@ -30,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.innerHTML = `
           <img src="${product.image}" class="card-img-top" alt="Flowermania">
           <div class="card-body">
-          <p class="card-text">Kes: ${product.price}</p>
+            <p class="card-text">Kes: ${product.price}</p>
             <p class="card-text">${product.description}</p>
             <button class="btn btn-outline-success add-to-cart-btn" data-id="${product.id}">Put into Cart</button>
           </div>
@@ -38,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 productList.appendChild(card);
                 section.appendChild(productList);
-                
+
             });
 
             productList.addEventListener("click", function (e) {
@@ -46,10 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     const productId = parseInt(e.target.getAttribute("data-id"));
                     const selectedProduct = data.find(p => p.id === productId);
 
-                    // Add price to item (optional, could be in db.json instead)
+                    //Spread our array and store it
                     const itemToCart = {
                         ...selectedProduct,
-                        price: flowerPrice
                     };
 
                     cartItems.push(itemToCart);
@@ -57,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     // Save to localStorage
                     localStorage.setItem("cartItems", JSON.stringify(cartItems));
 
-                    // Update cart counter
+                    // Update our number of orders
                     cartCount.textContent = cartItems.length;
 
                     alert(`Added to cart. Total items: ${cartItems.length}`);

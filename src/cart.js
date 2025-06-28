@@ -1,20 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const orderCountEl = document.getElementById("order-count");
-    const totalAmountEl = document.getElementById("total-amount");
+    const orderCountElement = document.getElementById("order-count");
+    const totalAmountcalc = document.getElementById("total-amount");
     const clearBtn = document.getElementById("clear-cart");
 
     const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
-    const itemPrice = 400;
     const orderCount = cartItems.length;
-    const totalAmount = orderCount * itemPrice;
+    //Calculate the total for our orders
+    // let totalAmount = cartItems.reduce(function(sum, item){
+    //     return sum + item.price
+    // }, 0);
+    //Same as above but simplified with an arrow function
+    const totalAmount = cartItems.reduce((sum, item) => sum + Number(item.price), 0);
 
-    orderCountEl.textContent = orderCount;
-    totalAmountEl.textContent = totalAmount;
-
+    orderCountElement.textContent = orderCount;
+    totalAmountcalc.textContent = `Kes: ${totalAmount}`;;
+    //Clears the number of orders placed
     clearBtn.addEventListener("click", () => {
         localStorage.removeItem("cartItems");
-        orderCountEl.textContent = "0";
-        totalAmountEl.textContent = "0";
+        orderCountElement.textContent = "0";
+        totalAmountcalc.textContent = "0";
         alert("Cart has been cleared.");
     });
 });
