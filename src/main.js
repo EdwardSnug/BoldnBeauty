@@ -3,7 +3,7 @@
 //Storing each Item click into an array of our choice with its attributes
 //Using LocalStorage to keep a record as long as the session is active
 let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
-const apiEndpoint = "http://localhost:3000/flowers"
+const apiEndpoint = "https://flowermaniaapi.onrender.com/flowers"
 
 document.addEventListener("DOMContentLoaded", () => {
     fetch(apiEndpoint)

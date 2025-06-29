@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const shopbtn = document.querySelector("#shopNow");
     shopbtn.addEventListener("click", (e) => {
         e.preventDefault();
-        window.location.href = "./products.html";
+        window.location.href = "../htmlFiles/products.html";
     })
 })

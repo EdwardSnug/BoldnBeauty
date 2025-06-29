@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", e => {
     e.preventDefault();
-    const apiEndpoint =  "http://localhost:3000/review"
+    //const apiEndpoint =  "http://localhost:3000/review"
     const formy = document.querySelector("#myform")
     const getinTouchbtn = document.querySelector("#submitbtn");
     console.log(getinTouchbtn);

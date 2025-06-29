@@ -94,13 +94,13 @@ document.addEventListener("DOMContentLoaded", () => {
             this.reset();
 
             // Redirect to Home Page
-            window.location.href = "Homepage.html";
+            window.location.href = "../htmlFiles/Homepage.html";
         } else {
             alert("Invalid username or password.");
         }
     });
     noSignupbtn.addEventListener("click", (e) => {
         e.preventDefault();
-        window.location.href = "Homepage.html";
+        window.location.href = "../htmlFiles/Homepage.html";
     })
 })
