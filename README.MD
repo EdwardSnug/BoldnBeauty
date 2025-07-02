@@ -28,3 +28,7 @@ The frontend is built entirely with HTML/CSS/JS and does not rely on external fr
 ```bash
 git clone https://github.com/EdwardSnug/boldnbeauty.git
 cd boldnbeauty
+
+## Author
+Edward Kamande Karogo
+Documentation created on June 30, 2025
